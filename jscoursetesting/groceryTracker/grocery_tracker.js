@@ -2,7 +2,7 @@ let gr1_amt;
 let gr2_amt;
 let gr3_amt;
 
-function grocery_tracker()
+function groceryTracker()
 {
     gr1_amt = parseFloat(document.getElementById('grocery1').value);
     gr2_amt = parseFloat(document.getElementById('grocery2').value);
