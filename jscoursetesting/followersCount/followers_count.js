@@ -6,6 +6,11 @@ function increaseCount() {
     checkCountValue();
 }
 
+function resetFollowers(){
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = 0;
+    alert("Your Followers Count has been reset");
+}
 function displayCount() {
     document.getElementById('countDisplay').innerHTML = count;
 }
